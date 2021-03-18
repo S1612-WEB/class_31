@@ -1,3 +1,43 @@
+var string = "This is a string";
+console.log(string);
+
+var number = 10;
+console.log(number);
+
+var boolean = true;
+console.log(boolean);
+
+var object;
+console.log(object);
+
+object = null;
+console.log(object);
+
+var array1 = [1,2,3,4,5];
+console.log(array1);
+
+var array2 = ["Susanna", 45, true];
+console.log(array2);
+
+var array3 = [[1,2], [2,5], [4,8,4,2]];
+//              0       1       2
+//              1       2       3
+console.log(array3);
+console.log(array3[1]);
+console.log(array3[1][0]);
+array3.push("Susanna");
+console.log(array3);
+
+array2.pop();
+console.log(array2);
+
+
+
+
+
+
+
+
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
